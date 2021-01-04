@@ -1,6 +1,11 @@
+import Container from './Common/Container';
+
 function App() {
   return (
-    <div></div>
+    <Container>
+      <>
+      </>
+    </Container>
   );
 }
 
