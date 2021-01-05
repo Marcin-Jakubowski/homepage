@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "./styled";
+import { WidthContainer } from "./styled";
 
 const Container = ({ children }) => (
-    <Container>
+    <WidthContainer>
         {children}
-    </Container>
+    </WidthContainer>
 );
 
 export default Container;
