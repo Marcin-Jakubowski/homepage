@@ -1,9 +1,16 @@
 import React from "react";
-import { ContentContainer } from "./styled";
+import { AuthorName, ContentBox, ContentContainer, Description, HireBox, Photo, SmallContent, ThemeBox } from "./styled";
 
 const AboutAuthor = () => (
     <ContentContainer>
-        <div></div>
+        <Photo />
+        <ContentBox>
+            <ThemeBox></ThemeBox>
+            <SmallContent>this is</SmallContent>
+            <AuthorName>marcin jakubowski</AuthorName>
+            <Description>description content</Description>
+            <HireBox></HireBox>
+        </ContentBox>
     </ContentContainer>
 );
 
