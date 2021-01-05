@@ -1,10 +1,10 @@
-import Container from './Common/Container';
+import AboutAuthor from './AboutAuthor/index';
+import Container from './common/Container/index';
 
 function App() {
   return (
     <Container>
-      <>
-      </>
+      <AboutAuthor />
     </Container>
   );
 }
