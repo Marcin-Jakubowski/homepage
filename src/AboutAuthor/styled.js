@@ -21,18 +21,21 @@ export const ThemeBox = styled.div`
     width: 159px;
     background-color: grey;
     align-self: flex-end;
+    text-transform: uppercase;
 `;
 
 export const SmallContent = styled.p`
     font-size: 12px;
     line-height: 16px;
     font-weight: 700;
+    text-transform: uppercase;
 `;
 
 export const AuthorName = styled.h1`
     font-size: 38px;
     line-height: 46px;
     font-weight: 900;
+    text-transform: capitalize;
 `;
 
 export const Description = styled.h2`
@@ -45,4 +48,5 @@ export const HireBox = styled.div`
     height: 49px;
     width: 154px;
     background-color: blue;
+    text-transform: capitalize;
 `;
