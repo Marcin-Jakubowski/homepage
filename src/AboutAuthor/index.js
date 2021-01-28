@@ -5,11 +5,11 @@ const AboutAuthor = () => (
     <ContentContainer>
         <Photo />
         <ContentBox>
-            <ThemeBox></ThemeBox>
+            <ThemeBox>theme</ThemeBox>
             <SmallContent>this is</SmallContent>
             <AuthorName>marcin jakubowski</AuthorName>
             <Description>description content</Description>
-            <HireBox></HireBox>
+            <HireBox>hire me</HireBox>
         </ContentBox>
     </ContentContainer>
 );
