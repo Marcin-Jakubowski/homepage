@@ -1,4 +1,5 @@
 import React from "react";
+import mailIcon from "./mailIcon.svg";
 import { AuthorName, ContentBox, ContentContainer, Description, HireBox, Photo, SmallContent, ThemeBox } from "./styled";
 
 const AboutAuthor = () => (
@@ -9,7 +10,10 @@ const AboutAuthor = () => (
             <SmallContent>this is</SmallContent>
             <AuthorName>marcin jakubowski</AuthorName>
             <Description>description content</Description>
-            <HireBox>hire me</HireBox>
+            <HireBox>
+                <img src={mailIcon} alt="Mail Icon" />
+                hire me
+            </HireBox>
         </ContentBox>
     </ContentContainer>
 );
