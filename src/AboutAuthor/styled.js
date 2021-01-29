@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContentContainer = styled.main`
   display: flex;
+  padding-top: 115px;
 `;
 
 export const Photo = styled.div`
@@ -14,6 +15,7 @@ export const Photo = styled.div`
 export const ContentBox = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: 66px;
 `;
 
 export const ThemeBox = styled.div`
@@ -31,6 +33,7 @@ export const SmallContent = styled.p`
   font-weight: 700;
   text-transform: uppercase;
   color: ${({theme}) => theme.color.secondaryFont};
+  margin: 32px 0 12px;
 `;
 
 export const AuthorName = styled.h1`
@@ -38,6 +41,7 @@ export const AuthorName = styled.h1`
   line-height: 46px;
   font-weight: 900;
   text-transform: capitalize;
+  margin: 0;
 `;
 
 export const Description = styled.h2`
@@ -45,6 +49,7 @@ export const Description = styled.h2`
   line-height: 28px;
   font-weight: 400;
   color: ${({theme}) => theme.color.secondaryFont};
+  margin: 32px 0;
 `;
 
 export const HireBox = styled.div`
