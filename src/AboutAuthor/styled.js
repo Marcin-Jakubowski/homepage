@@ -53,9 +53,21 @@ export const Description = styled.h2`
 `;
 
 export const HireBox = styled.div`
-  height: 49px;
+  min-height: 49px;
   width: 154px;
-  background-color: blue;
+  background-color: ${({theme}) => theme.color.mainBlue};
+  border: 1px solid rgba(209, 213, 218, 0.3);
+  border-radius: 4px;
   text-transform: capitalize;
-  color: ${({theme}) => theme.color.thirdFont}
+  color: ${({theme}) => theme.color.thirdFont};
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+`;
+
+export const MailIcon = styled.img`
+  margin-right: 16px;
 `;
