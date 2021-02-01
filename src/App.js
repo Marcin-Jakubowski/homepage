@@ -13,10 +13,7 @@ function App() {
       <GlobalStyle />
       <Container>
         <AboutAuthor />
-        <Section
-          header={"My skillset includes"}
-          body={bodyTest}
-        />
+        <Section header={"My skillset includes"} body={bodyTest} />
       </Container>
     </ThemeProvider>
   );
