@@ -3,14 +3,17 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   padding: 32px;
-  background-color: white;
+  background-color: ${({ theme }) => theme.color.secondaryBackground};
 `;
 
 export const HeaderContent = styled.p`
   font-size: 30px;
   line-height: 36px;
   font-weight: 900;
-  margin: 0;
+  margin: 0 0 32px;
+  padding-bottom: 15px;
+  width: 100%;
+  border-bottom: 1px solid ${({ theme }) => theme.color.sectionUnderline};
 `;
 
 export const ItemsList = styled.div`
