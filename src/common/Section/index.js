@@ -1,13 +1,17 @@
 import React from "react";
-import { Container, HeaderContent } from "./styled";
+import { Container, HeaderContent, ItemsList, ListItem } from "./styled";
 
-const Section = (header, body) => (
+const Section = ({header, body}) => (
     <Container>
         <HeaderContent>
             {header}
         </HeaderContent>
         <ItemsList>
-            {body}
+            {body && body.map((fragment) => (
+                <ListItem>
+                    {fragment}
+                </ListItem>
+            ))}
         </ItemsList>
     </Container>
 );
