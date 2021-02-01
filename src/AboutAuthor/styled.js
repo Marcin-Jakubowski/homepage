@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContentContainer = styled.main`
   display: flex;
   padding-top: 115px;
+  margin-bottom: 64px;
 `;
 
 export const Photo = styled.div`
