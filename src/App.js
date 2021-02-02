@@ -5,10 +5,9 @@ import Container from "./common/Container/index";
 import { theme } from "./theme";
 import Section from "./common/Section";
 import { currentSkillset, futureSkillset } from "./skillsetData";
+import Portfolio from "./Portfolio";
 
 function App() {
-  const bodyTest = [1, 2, 3, 4, 5];
-
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
@@ -16,6 +15,7 @@ function App() {
         <AboutAuthor />
         <Section header={"My skillset includes"} body={currentSkillset} />
         <Section header={"What I want to learn next"} body={futureSkillset} />
+        <Portfolio />
       </Container>
     </ThemeProvider>
   );
