@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 32px;
   background-color: ${({ theme }) => theme.color.secondaryBackground};
+  border-radius: 4px;
 `;
 
 export const HeaderContent = styled.p`
@@ -20,6 +21,8 @@ export const ItemsList = styled.div`
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
 `;
 
 export const ListItem = styled.li`
