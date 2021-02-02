@@ -23,7 +23,8 @@ export const ItemsList = styled.div`
   line-height: 25px;
   font-weight: 400;
   display: grid;
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
 `;
 
 export const ListItem = styled.li`
