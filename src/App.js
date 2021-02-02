@@ -6,7 +6,7 @@ import { theme } from "./theme";
 import Section from "./common/Section";
 
 function App() {
-  const bodyTest = [1, 2, 3];
+  const bodyTest = [1, 2, 3, 4, 5];
 
   return (
     <ThemeProvider theme={theme}>
@@ -14,6 +14,7 @@ function App() {
       <Container>
         <AboutAuthor />
         <Section header={"My skillset includes"} body={bodyTest} />
+        <Section header={"What I want to learn next"} body={bodyTest} />
       </Container>
     </ThemeProvider>
   );
