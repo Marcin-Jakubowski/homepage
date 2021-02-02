@@ -6,10 +6,10 @@ export const ContentContainer = styled.main`
   margin-bottom: 64px;
 `;
 
-export const Photo = styled.div`
-  width: 398px;
+export const Photo = styled.img`
+  min-width: 398px;
   height: 398px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: grey;
 `;
 
@@ -17,6 +17,7 @@ export const ContentBox = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 66px;
+  width: 100%;
 `;
 
 export const ThemeBox = styled.div`
