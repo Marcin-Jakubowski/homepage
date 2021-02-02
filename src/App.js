@@ -4,6 +4,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import Container from "./common/Container/index";
 import { theme } from "./theme";
 import Section from "./common/Section";
+import { currentSkillset, futureSkillset } from "./skillsetData";
 
 function App() {
   const bodyTest = [1, 2, 3, 4, 5];
@@ -13,8 +14,8 @@ function App() {
       <GlobalStyle />
       <Container>
         <AboutAuthor />
-        <Section header={"My skillset includes"} body={bodyTest} />
-        <Section header={"What I want to learn next"} body={bodyTest} />
+        <Section header={"My skillset includes"} body={currentSkillset} />
+        <Section header={"What I want to learn next"} body={futureSkillset} />
       </Container>
     </ThemeProvider>
   );
