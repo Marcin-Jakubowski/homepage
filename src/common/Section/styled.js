@@ -8,7 +8,7 @@ export const Container = styled.div`
   border-radius: 4px;
 `;
 
-export const HeaderContent = styled.p`
+export const HeaderContent = styled.h2`
   font-size: 30px;
   line-height: 36px;
   font-weight: 900;
