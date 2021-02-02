@@ -22,3 +22,12 @@ export const currentSkillset = [
     "Git",
     "CSS Flexbox"
 ];
+
+export const futureSkillset = [
+    "React Context",
+    "Cypress",
+    "TypeScript",
+    "Node.js",
+    "Unit testing",
+    "JS classes"
+]
