@@ -4,7 +4,7 @@ export const theme = {
         secondaryFont: "#6E7E91",
         thirdFont: "#FFFFFF",
         sectionUnderline: "#D1D5DA",
-        background: "#E5E5E5",
+        background: "#FBFBFE",
         secondaryBackground: "#FFFFFF",
         mainBlue: "#0366D6"
     },
