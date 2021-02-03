@@ -28,3 +28,18 @@ export const SubHeader = styled.p`
     line-height: 28px;
     font-weight: 400;
 `;
+
+export const ProjectsContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 32px;
+`;
+
+export const ProjectTile = styled.div`
+    min-width: 592px;
+    min-height: 322px;
+    background-color: ${({theme}) => theme.color.secondaryBackground};
+    border: 6px solid rgba(209, 213, 218, 0.3);
+    box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+    border-radius: 4px;
+`;
