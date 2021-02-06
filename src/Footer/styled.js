@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
+  width: 100%;
 `;
 
 export const SmallContent = styled.p`
@@ -9,7 +9,7 @@ export const SmallContent = styled.p`
   line-height: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: ${({theme}) => theme.color.secondaryFont};
+  color: ${({ theme }) => theme.color.secondaryFont};
 `;
 
 export const Mail = styled.address`

@@ -22,8 +22,12 @@ const Portfolio = () => (
         <Title>Project</Title>
         <Content>
           <p>description content</p>
-          <p>Demo: <Link>link.com</Link></p>
-          <p>Code: <Link>link.com</Link></p>
+          <p>
+            Demo: <Link>link.com</Link>
+          </p>
+          <p>
+            Code: <Link>link.com</Link>
+          </p>
         </Content>
       </ProjectTile>
       <ProjectTile></ProjectTile>
