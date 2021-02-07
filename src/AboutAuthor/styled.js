@@ -34,7 +34,7 @@ export const SmallContent = styled.p`
   line-height: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: ${({theme}) => theme.color.secondaryFont};
+  color: ${({ theme }) => theme.color.secondaryFont};
   margin: 32px 0 12px;
 `;
 
@@ -50,18 +50,18 @@ export const Description = styled.h2`
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  color: ${({theme}) => theme.color.secondaryFont};
+  color: ${({ theme }) => theme.color.secondaryFont};
   margin: 32px 0;
 `;
 
 export const HireBox = styled.div`
   min-height: 49px;
   width: 154px;
-  background-color: ${({theme}) => theme.color.mainBlue};
+  background-color: ${({ theme }) => theme.color.mainBlue};
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
   text-transform: capitalize;
-  color: ${({theme}) => theme.color.thirdFont};
+  color: ${({ theme }) => theme.color.thirdFont};
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
