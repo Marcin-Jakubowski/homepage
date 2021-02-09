@@ -16,6 +16,7 @@ export const Mail = styled.address`
   font-size: 32px;
   line-height: 39px;
   font-weight: 900;
+  font-style: normal;
 `;
 
 export const Content = styled.p`
