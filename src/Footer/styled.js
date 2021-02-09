@@ -24,3 +24,20 @@ export const Content = styled.p`
   line-height: 25px;
   font-weight: 400;
 `;
+
+export const LogosBox = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 48px);
+  grid-gap: 24px;
+  align-items: center;
+`;
+
+export const LogoLink = styled.a`
+  width: 48px;
+  height: 48px;
+`;
+
+export const Logo = styled.img`
+  display: block;
+`;
