@@ -2,11 +2,15 @@ import React from "react";
 import {
   Container,
   Content,
+  ContentBox,
+  Description,
   Header,
   Link,
   Logo,
+  Mail,
   ProjectsContainer,
   ProjectTile,
+  SmallContent,
   SubHeader,
   Title,
 } from "./styled";
@@ -32,6 +36,11 @@ const Portfolio = () => (
       <ProjectTile></ProjectTile>
       <ProjectTile></ProjectTile>
     </ProjectsContainer>
+    <ContentBox>
+      <SmallContent>let's talk</SmallContent>
+      <Mail>marcin.jakubowski137@gmail.com</Mail>
+      <Description>description content</Description>
+    </ContentBox>
   </Container>
 );
 
