@@ -46,7 +46,7 @@ export const AuthorName = styled.h1`
   margin: 0;
 `;
 
-export const Description = styled.h2`
+export const Description = styled.p`
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
