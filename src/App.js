@@ -6,6 +6,7 @@ import { theme } from "./theme";
 import Section from "./common/Section";
 import { currentSkillset, futureSkillset } from "./skillsetData";
 import Portfolio from "./Portfolio";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Section header={"My skillset includes"} body={currentSkillset} />
         <Section header={"What I want to learn next"} body={futureSkillset} />
         <Portfolio />
+        <Footer />
       </Container>
     </ThemeProvider>
   );
