@@ -10,6 +10,7 @@ export const SmallContent = styled.p`
   font-weight: 700;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryFont};
+  margin: 0;
 `;
 
 export const Mail = styled.address`
@@ -17,12 +18,14 @@ export const Mail = styled.address`
   line-height: 39px;
   font-weight: 900;
   font-style: normal;
+  margin: 24px 0;
 `;
 
 export const Content = styled.p`
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
+  margin: 0;
 `;
 
 export const LogosBox = styled.div`
@@ -31,6 +34,7 @@ export const LogosBox = styled.div`
   grid-template-columns: repeat(auto-fill, 48px);
   grid-gap: 24px;
   align-items: center;
+  margin: 56px 0 109px;
 `;
 
 export const LogoLink = styled.a`
