@@ -13,12 +13,12 @@ const portfolioSlice = createSlice({
     setRepositories: (state, { payload }) => {
         state.repositories = payload;
     },
-    initialFetchAPI: () => {}
+    initiateFetchAPI: () => {}
   },
 });
 
 export const {
-    initialFetchAPI,
+    initiateFetchAPI,
     setRepositories,
     setStatus
 } = portfolioSlice.actions;
