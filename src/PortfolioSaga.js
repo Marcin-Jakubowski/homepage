@@ -1,8 +1,8 @@
-import { put } from "redux-saga/effects";
+import { put, takeLatest } from "redux-saga/effects";
 import Axios from "axios";
-import { setRepositories, setStatus } from "./PortfolioSlice";
+import { initiateFetchAPI, setRepositories, setStatus } from "./PortfolioSlice";
 
-export function* fetchReposFromAPI() {
+export function* fetchReposData() {
     try {
         const response = yield Axios.get("https://api.github.com/users/Marcin-Jakubowski/repos");
         yield put(setRepositories(response.data));
@@ -10,4 +10,8 @@ export function* fetchReposFromAPI() {
     } catch (error) {
         yield put(setStatus("failed"));
     }
+};
+
+export function* fetchReposFromAPI() {
+    yield takeLatest(initiateFetchAPI, fetchReposData);
 };
