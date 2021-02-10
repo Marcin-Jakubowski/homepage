@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 120px;
 `;
 
 export const Logo = styled.img`
@@ -33,7 +34,7 @@ export const ProjectsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
-  margin: 24px auto;
+  margin-top: 24px;
 `;
 
 export const ProjectTile = styled.div`
