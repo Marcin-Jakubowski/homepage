@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/homepage/static/js/main.3c07b855.chunk.js",
-    "main.js.map": "/homepage/static/js/main.3c07b855.chunk.js.map",
-    "runtime-main.js": "/homepage/static/js/runtime-main.23834a80.js",
-    "runtime-main.js.map": "/homepage/static/js/runtime-main.23834a80.js.map",
-    "static/js/2.6bbe1b19.chunk.js": "/homepage/static/js/2.6bbe1b19.chunk.js",
-    "static/js/2.6bbe1b19.chunk.js.map": "/homepage/static/js/2.6bbe1b19.chunk.js.map",
-    "static/js/3.966a1195.chunk.js": "/homepage/static/js/3.966a1195.chunk.js",
-    "static/js/3.966a1195.chunk.js.map": "/homepage/static/js/3.966a1195.chunk.js.map",
+    "main.js": "/homepage/static/js/main.5e9d0dec.chunk.js",
+    "main.js.map": "/homepage/static/js/main.5e9d0dec.chunk.js.map",
+    "runtime-main.js": "/homepage/static/js/runtime-main.d8ab89af.js",
+    "runtime-main.js.map": "/homepage/static/js/runtime-main.d8ab89af.js.map",
+    "static/js/2.46e6a338.chunk.js": "/homepage/static/js/2.46e6a338.chunk.js",
+    "static/js/2.46e6a338.chunk.js.map": "/homepage/static/js/2.46e6a338.chunk.js.map",
+    "static/js/3.cdfbcacd.chunk.js": "/homepage/static/js/3.cdfbcacd.chunk.js",
+    "static/js/3.cdfbcacd.chunk.js.map": "/homepage/static/js/3.cdfbcacd.chunk.js.map",
     "index.html": "/homepage/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/homepage/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.6bbe1b19.chunk.js.LICENSE.txt": "/homepage/static/js/2.6bbe1b19.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/homepage/static/media/logo.6ce24c58.svg"
+    "static/js/2.46e6a338.chunk.js.LICENSE.txt": "/homepage/static/js/2.46e6a338.chunk.js.LICENSE.txt",
+    "static/media/facebookLogo.dd5a3114.svg": "/homepage/static/media/facebookLogo.dd5a3114.svg",
+    "static/media/githubLogo.165d8f30.svg": "/homepage/static/media/githubLogo.165d8f30.svg",
+    "static/media/linkedinLogo.df8973c8.svg": "/homepage/static/media/linkedinLogo.df8973c8.svg",
+    "static/media/mailIcon.e728eecb.svg": "/homepage/static/media/mailIcon.e728eecb.svg",
+    "static/media/portfolioLogo.ca2944d5.svg": "/homepage/static/media/portfolioLogo.ca2944d5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.23834a80.js",
-    "static/js/2.6bbe1b19.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.3c07b855.chunk.js"
+    "static/js/runtime-main.d8ab89af.js",
+    "static/js/2.46e6a338.chunk.js",
+    "static/js/main.5e9d0dec.chunk.js"
   ]
 }
