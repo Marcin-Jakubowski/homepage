@@ -11,19 +11,20 @@ const portfolioSlice = createSlice({
       state.status = payload;
     },
     setRepositories: (state, { payload }) => {
-        state.repositories = payload;
+      state.repositories = payload;
     },
-    initiateFetchAPI: () => {}
+    initiateFetchAPI: () => {},
   },
 });
 
 export const {
-    initiateFetchAPI,
-    setRepositories,
-    setStatus
+  initiateFetchAPI,
+  setRepositories,
+  setStatus,
 } = portfolioSlice.actions;
 
-export const selectPortfolio = state => state.portfolio;
+export const selectPortfolio = (state) => state.portfolio;
 export const selectStatus = (state) => selectPortfolio(state).status;
-export const selectRepositories = (state) => selectPortfolio(state).repositories;
+export const selectRepositories = (state) =>
+  selectPortfolio(state).repositories;
 export default portfolioSlice.reducer;

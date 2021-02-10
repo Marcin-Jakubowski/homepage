@@ -10,7 +10,7 @@ import {
   SubHeader,
   Title,
 } from "./styled";
-import { initiateFetchAPI, selectRepositories } from '../PortfolioSlice';
+import { initiateFetchAPI, selectRepositories } from "../PortfolioSlice";
 import portfolioLogo from "./portfolioLogo.svg";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -19,11 +19,10 @@ function Portfolio() {
 
   useEffect(() => {
     dispatch(initiateFetchAPI());
-  },
-    [dispatch]);
+  }, [dispatch]);
 
-    const repositories = useSelector(selectRepositories);
-    console.log(repositories);
+  const repositories = useSelector(selectRepositories);
+  console.log(repositories);
 
   return (
     <Container>

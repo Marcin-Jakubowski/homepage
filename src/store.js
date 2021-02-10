@@ -6,10 +6,10 @@ import portfolioSlice from "./PortfolioSlice";
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
-    reducer: {
-        portfolio: portfolioSlice
-    },
-    middleware: [sagaMiddleware]
+  reducer: {
+    portfolio: portfolioSlice,
+  },
+  middleware: [sagaMiddleware],
 });
 
 sagaMiddleware.run(fetchReposFromAPI);
