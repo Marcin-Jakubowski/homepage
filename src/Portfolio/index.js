@@ -35,19 +35,18 @@ function Portfolio() {
       <Header>portfolio</Header>
       <SubHeader>My recent projects</SubHeader>
       <ProjectsContainer>
-        <ProjectTile>
-          <Title>Project</Title>
-          <Content>description content</Content>
+        {repositories && repositories.map((fragment) =>
+        <ProjectTile key={fragment.id}>
+          <Title>{fragment.name}</Title>
+          <Content>{fragment.description}</Content>
           <Content>
-            Demo: <Link>link.com</Link>
+            Demo: <Link>https://marcin-jakubowski.github.io/{fragment.name}/</Link>
           </Content>
           <Content>
-            Code: <Link>link.com</Link>
+            Code: <Link>{fragment.html_url}</Link>
           </Content>
         </ProjectTile>
-        <ProjectTile></ProjectTile>
-        <ProjectTile></ProjectTile>
-        <ProjectTile></ProjectTile>
+        )}
       </ProjectsContainer>
     </Container>
   );
