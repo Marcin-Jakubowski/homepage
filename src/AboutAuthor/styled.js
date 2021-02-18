@@ -21,6 +21,7 @@ export const ContentBox = styled.div`
 `;
 
 export const ThemeBox = styled.div`
+  display: none;
   height: 26px;
   width: 159px;
   background-color: grey;
