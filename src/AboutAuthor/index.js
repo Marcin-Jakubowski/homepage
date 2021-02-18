@@ -11,6 +11,7 @@ import {
   SmallContent,
   ThemeBox,
 } from "./styled";
+import { mail } from "../personalInfo";
 
 const AboutAuthor = () => (
   <ContentContainer>
@@ -20,7 +21,7 @@ const AboutAuthor = () => (
       <SmallContent>this is</SmallContent>
       <AuthorName>marcin jakubowski</AuthorName>
       <Description>👨💻 I'm Front-end Developer, who's motivated to start based on my passion work!</Description>
-      <HireBox>
+      <HireBox href={`mailto:${mail}`}>
         <MailIcon src={mailIcon} alt="Mail Icon" />
         hire me
       </HireBox>
