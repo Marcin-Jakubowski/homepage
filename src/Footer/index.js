@@ -16,17 +16,17 @@ const Footer = () => (
   <Container>
     <SmallContent>let's talk!</SmallContent>
     <Mail>marcin.jakubowski137@gmail.com</Mail>
-    <Content>description</Content>
+    <Content>I’m always open to new projects whenever I have the time. If you need some help to make your ideas come to life or want to start new project, feel free to conatct me 🖐</Content>
     <LogosBox>
-      <LogoLink>
+      <LogoLink href="https://github.com/Marcin-Jakubowski">
         <Logo src={githubLogo} alt="GitHub Logo" />
       </LogoLink>
-      <LogoLink>
+      <LogoLink href="https://www.facebook.com/marcin.jakubowski.52643">
         <Logo src={facebookLogo} alt="Facebook Logo" />
       </LogoLink>
-      <LogoLink>
+      {/* <LogoLink>
         <Logo src={linkedinLogo} alt="LinkedIn Logo" />
-      </LogoLink>
+      </LogoLink> */}
     </LogosBox>
   </Container>
 );
