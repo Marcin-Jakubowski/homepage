@@ -19,7 +19,7 @@ const AboutAuthor = () => (
       <ThemeBox>theme</ThemeBox>
       <SmallContent>this is</SmallContent>
       <AuthorName>marcin jakubowski</AuthorName>
-      <Description>description content</Description>
+      <Description>👨💻 I'm Front-end Developer, who's motivated to start based on my passion work!</Description>
       <HireBox>
         <MailIcon src={mailIcon} alt="Mail Icon" />
         hire me
