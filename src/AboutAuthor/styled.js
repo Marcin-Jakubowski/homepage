@@ -55,13 +55,15 @@ export const Description = styled.p`
   margin: 32px 0;
 `;
 
-export const HireBox = styled.div`
+export const HireBox = styled.a`
+  display: block;
   min-height: 49px;
   width: 154px;
   background-color: ${({ theme }) => theme.color.mainBlue};
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
   text-transform: capitalize;
+  text-decoration: none;
   color: ${({ theme }) => theme.color.thirdFont};
   font-size: 20px;
   line-height: 24px;
