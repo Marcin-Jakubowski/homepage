@@ -13,12 +13,15 @@ export const SmallContent = styled.p`
   margin: 0;
 `;
 
-export const Mail = styled.address`
+export const Mail = styled.a`
   font-size: 32px;
   line-height: 39px;
   font-weight: 900;
   font-style: normal;
+  display: block;
   margin: 24px 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.color.mainFont};
 `;
 
 export const Content = styled.p`
