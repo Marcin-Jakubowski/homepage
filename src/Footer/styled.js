@@ -22,6 +22,10 @@ export const Mail = styled.a`
   margin: 24px 0;
   text-decoration: none;
   color: ${({ theme }) => theme.color.mainFont};
+
+&:hover {
+  color: ${({ theme }) => theme.color.mainBlue};
+}
 `;
 
 export const Content = styled.p`
