@@ -6,7 +6,8 @@ export const theme = {
         sectionUnderline: "#D1D5DA",
         background: "#FBFBFE",
         secondaryBackground: "#FFFFFF",
-        mainBlue: "#0366D6"
+        mainBlue: "#0366D6",
+        buttonShadow: "#8CC2FF"
     },
     breakpoint: {
         mobileMax: 767
