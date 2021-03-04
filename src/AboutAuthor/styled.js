@@ -71,6 +71,10 @@ export const HireBox = styled.a`
   padding: 16px;
   display: flex;
   align-items: center;
+
+  &:hover {
+    box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.color.buttonShadow};
+  }
 `;
 
 export const MailIcon = styled.img`
