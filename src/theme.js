@@ -7,6 +7,22 @@ export const theme = {
         background: "#FBFBFE",
         secondaryBackground: "#FFFFFF",
         mainBlue: "#0366D6",
+        buttonShadow: "#6D93BE"
+    },
+    breakpoint: {
+        mobileMax: 767
+    }
+};
+
+export const darkTheme = {
+    color: {
+        mainFont: "#FFFFFF",
+        secondaryFont: "#FFFFFF",
+        thirdFont: "#FFFFFF",
+        sectionUnderline: "#D1D5DA",
+        background: "#252525",
+        secondaryBackground: "#363636",
+        mainBlue: "#2188FF",
         buttonShadow: "#8CC2FF"
     },
     breakpoint: {
