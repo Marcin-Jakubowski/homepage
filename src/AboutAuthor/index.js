@@ -12,12 +12,13 @@ import {
   ThemeBox,
 } from "./styled";
 import { mail } from "../personalInfo";
+import toggleThemeIcon from "./toggleThemeIcon.svg";
 
 const AboutAuthor = () => (
   <ContentContainer>
     <Photo />
     <ContentBox>
-      <ThemeBox>theme</ThemeBox>
+      <ThemeBox>theme <img src={toggleThemeIcon} /></ThemeBox>
       <SmallContent>this is</SmallContent>
       <AuthorName>marcin jakubowski</AuthorName>
       <Description>
