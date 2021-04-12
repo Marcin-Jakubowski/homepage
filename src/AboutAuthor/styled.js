@@ -21,13 +21,15 @@ export const ContentBox = styled.div`
 `;
 
 export const ThemeBox = styled.div`
-  display: none;
-  height: 26px;
-  width: 159px;
-  background-color: grey;
+  border: 1px solid black;
   align-self: flex-end;
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.secondaryFont};
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
 `;
 
 export const SmallContent = styled.p`

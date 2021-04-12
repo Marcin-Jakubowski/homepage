@@ -18,7 +18,7 @@ const AboutAuthor = () => (
   <ContentContainer>
     <Photo />
     <ContentBox>
-      <ThemeBox>theme <img src={toggleThemeIcon} /></ThemeBox>
+      <ThemeBox>dark mode off <img src={toggleThemeIcon} /></ThemeBox>
       <SmallContent>this is</SmallContent>
       <AuthorName>marcin jakubowski</AuthorName>
       <Description>
