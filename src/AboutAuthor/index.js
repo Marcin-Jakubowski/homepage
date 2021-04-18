@@ -10,6 +10,8 @@ import {
   Photo,
   SmallContent,
   ThemeBox,
+  ToggleThemeBox,
+  ToggleThemeIcon,
 } from "./styled";
 import { mail } from "../personalInfo";
 import toggleThemeIcon from "./toggleThemeIcon.svg";
@@ -18,7 +20,12 @@ const AboutAuthor = () => (
   <ContentContainer>
     <Photo />
     <ContentBox>
-      <ThemeBox>dark mode off <img src={toggleThemeIcon} /></ThemeBox>
+      <ThemeBox>
+        dark mode off
+        <ToggleThemeBox>
+          <ToggleThemeIcon src={toggleThemeIcon} />
+        </ToggleThemeBox>
+      </ThemeBox>
       <SmallContent>this is</SmallContent>
       <AuthorName>marcin jakubowski</AuthorName>
       <Description>

@@ -30,6 +30,15 @@ export const ThemeBox = styled.div`
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
+  background-color: green;
+`;
+
+export const ToggleThemeBox = styled.div`
+  border: 1px solid black;
+`;
+
+export const ToggleThemeIcon = styled.img`
+  border: 1px solid black;
 `;
 
 export const SmallContent = styled.p`
