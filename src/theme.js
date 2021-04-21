@@ -6,6 +6,8 @@ export const theme = {
         sectionUnderline: "#D1D5DA",
         background: "#FBFBFE",
         secondaryBackground: "#FFFFFF",
+        toggleThemeBackground: "#E5E5E5",
+        toggleThemeIconBackground: "#6E7E91",
         mainBlue: "#0366D6",
         buttonShadow: "#6D93BE"
     },
@@ -22,6 +24,8 @@ export const darkTheme = {
         sectionUnderline: "#D1D5DA",
         background: "#252525",
         secondaryBackground: "#363636",
+        toggleThemeBackground: "#363636",
+        toggleThemeIconBackground: "#FFFFFF",
         mainBlue: "#2188FF",
         buttonShadow: "#8CC2FF"
     },
