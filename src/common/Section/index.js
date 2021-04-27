@@ -6,7 +6,8 @@ const Section = ({ header, body }) => (
   <Container>
     <HeaderContent>{header}</HeaderContent>
     <ItemsList>
-      {body && body.map((fragment) => <ListItem key={nanoid()}>{fragment}</ListItem>)}
+      {body &&
+        body.map((fragment) => <ListItem key={nanoid()}>{fragment}</ListItem>)}
     </ItemsList>
   </Container>
 );

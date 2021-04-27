@@ -4,7 +4,7 @@ const portfolioSlice = createSlice({
   name: "portfolio",
   initialState: {
     repositories: [],
-    status: "loading"
+    status: "loading",
   },
   reducers: {
     setStatus: (state, { payload }) => {
@@ -27,5 +27,5 @@ export const selectPortfolio = (state) => state.portfolio;
 export const selectStatus = (state) => selectPortfolio(state).status;
 export const selectRepositories = (state) =>
   selectPortfolio(state).repositories;
-  
+
 export default portfolioSlice.reducer;

@@ -6,7 +6,8 @@ export const Container = styled.div`
   margin-bottom: 72px;
   background-color: ${({ theme }) => theme.color.secondaryBackground};
   border-radius: 4px;
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
+    0px 16px 58px rgba(9, 10, 51, 0.03);
 `;
 
 export const HeaderContent = styled.h2`

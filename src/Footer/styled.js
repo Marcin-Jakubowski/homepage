@@ -23,9 +23,9 @@ export const Mail = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.color.mainFont};
 
-&:hover {
-  color: ${({ theme }) => theme.color.mainBlue};
-}
+  &:hover {
+    color: ${({ theme }) => theme.color.mainBlue};
+  }
 `;
 
 export const Content = styled.p`
